@@ -2,7 +2,7 @@
 RKUserResizableView is a user-resizable, user-repositionable UIView subclass built for iOS (Swift 3).
 
 
-RKUserResizableView is a user-resizable, user-repositionable UIView subclass. It is modeled after the resizable image view from the Pages iOS app. Any UIView can be provided as the content view for the RKUserResizableView. As the view is respositioned and resized, setFrame: will be called on the content view accordingly.
+RKUserResizableView is a user-resizable, user-repositionable UIView subclass. It is modeled after the resizable image view from the Pages iOS app. Any UIView can be provided as the content view for the RKUserResizableView.
 
 Screenshot
 ----

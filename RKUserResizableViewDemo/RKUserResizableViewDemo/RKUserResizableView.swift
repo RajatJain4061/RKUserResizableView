@@ -55,8 +55,8 @@ class RKUserResizableView:UIView {
     var touchStart = CGPoint.zero
     
     // Default is 48.0 for each.
-    var minWidth: CGFloat = 0.0
-    var minHeight: CGFloat = 0.0
+    var minWidth: CGFloat = 48.0
+    var minHeight: CGFloat = 48.0
     
     // Used to determine which components of the bounds we'll be modifying, based upon where the user's touch started.
     var anchorPoint = RKUserResizableViewAnchorPoint()

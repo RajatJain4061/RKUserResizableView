@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         contentView.backgroundColor = UIColor.red
         userResizableView.contentView = contentView
         userResizableView.showEditingHandles()
+        userResizableView.isPreventsPositionOutsideSuperview
         currentlyEditingView = userResizableView
         lastEditedView = userResizableView
         self.view.addSubview(userResizableView)

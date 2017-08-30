@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         // (1) Create a user resizable view with a simple red background content view.
         let gripFrame = CGRect(x: 50, y: 50, width: 200, height: 150)
@@ -25,6 +24,7 @@ class ViewController: UIViewController {
         contentView.backgroundColor = UIColor.red
         userResizableView.contentView = contentView
         userResizableView.showEditingHandles()
+        userResizableView.isPreventsPositionOutsideSuperview
         currentlyEditingView = userResizableView
         lastEditedView = userResizableView
         self.view.addSubview(userResizableView)
